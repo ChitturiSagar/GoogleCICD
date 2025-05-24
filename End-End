@@ -1,0 +1,16 @@
+# Make sure you're inside your project root
+cd googleCICD/
+
+# Initialize git (if not already)
+git init
+
+# Add your remote repo (replace with your repo URL)
+git remote add origin https://github.com/ChitturiSagar/googleCICD.git
+
+# Add and commit your current files
+git add .
+git commit -m "Initial commit with project setup and README"
+
+# Push to GitHub
+git branch -M main
+git push origin main
